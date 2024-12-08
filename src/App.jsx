@@ -1,5 +1,5 @@
 import "./App.css";
-import ContactList from "./components/contactList/ContactList";
+import ContactList from "./components/ContactList/ContactList";
 import ContactsForm from "./components/ContactsForm/ContactsForm";
 import SearchBox from "./components/SearchBox/SearchBox";
 
