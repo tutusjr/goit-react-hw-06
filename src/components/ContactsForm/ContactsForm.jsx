@@ -52,24 +52,24 @@ export default function ContactsForm() {
         {({ values, handleChange }) => (
           <Form>
             <div>
-              <label htmlFor="name">Name</label>
-              <input
+              <Field
                 type="text"
-                id="name"
+                placeholder="name"
                 name="name"
                 value={values.name}
                 onChange={handleChange}
               />
+              <ErrorMessage name="name" component="div" />
             </div>
             <div>
-              <label htmlFor="number">Number</label>
-              <input
+              <Field
                 type="text"
-                id="number"
+                placeholder="number"
                 name="number"
                 value={values.number}
                 onChange={handleChange}
               />
+              <ErrorMessage name="number" component="div" />
             </div>
             <button type="submit">Submit</button>
           </Form>
